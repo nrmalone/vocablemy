@@ -2,6 +2,7 @@ import os
 import sys
 import turtle
 import game
+# TODO: decide which audio library to use
 
 # define audio and image resource location for packaging as standalone .exe
 def resource_path(relative_path):
@@ -25,7 +26,9 @@ word.color("white")
 word.penup()
 word.hideturtle()
 word.goto(0,170)
+# TODO: test out fonts in test.py?
 word.write("", align="center", font=("", 12, "normal"))
+# TODO: add keypress functionality to build string
 
 #intro/tutorial screen
 while game.started == 0:
