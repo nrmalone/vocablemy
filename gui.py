@@ -34,3 +34,5 @@ while game.started == 0:
 #after game start
 while game.started == 1:
     window.update()
+
+# TODO: handle game.gameover == 1
